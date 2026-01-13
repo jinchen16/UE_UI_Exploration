@@ -73,3 +73,6 @@ UE_UI_Exploration/Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 UE_UI_Exploration/DerivedDataCache/*
+
+# Course related assets
+UE_UI_Exploration/Content/Assets
