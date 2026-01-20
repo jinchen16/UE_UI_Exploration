@@ -15,7 +15,8 @@ public class UE_UI_Exploration : ModuleRules
             "Engine",
             "InputCore",
             "EnhancedInput",
-            "GameplayTags"
+            "GameplayTags",
+            "UMG"
         });
     }
 }
