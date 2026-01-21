@@ -2,6 +2,7 @@
 
 
 #include "Widgets/Widget_PrimaryLayout.h"
+#include "DebugHelper.h"
 
 UCommonActivatableWidgetContainerBase* UWidget_PrimaryLayout::FindWidgetStackByTag(const FGameplayTag& InTag)
 {
