@@ -20,7 +20,7 @@ class UE_UI_EXPLORATION_API UAsyncAction_PushSoftWidget : public UBlueprintAsync
 	GENERATED_BODY()
 
 public:
-	UFUNCTION(BlueprintCallable, meta = (WoldContext = "WorldContextObject", HidePin = "WorldContextObject", BlueprintInternalUseOnly = "true", DisplayName = "Push Soft Widget To Widget Stack"))
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject", HidePin = "WorldContextObject", BlueprintInternalUseOnly = "true", DisplayName = "Push Soft Widget To Widget Stack"))
 	static UAsyncAction_PushSoftWidget* PushSoftWidget(const UObject* WorldContextObject,
 		APlayerController* PlayerController,
 		TSoftClassPtr<UWidget_ActivatableBase> InSoftWidgetClass,
